@@ -1,4 +1,4 @@
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import { PageWrapper } from "../../components/PageWrapper";
 import Title from "../../components/Title";
 import ProductCard from "../../components/ProductCart";
@@ -21,6 +21,7 @@ const Category = () => {
           sidebar 1
         </Box>
         <Box sx={{ flex: "1 1 60em", outline: "1px solid blue" }}>
+          <Typography>Сортировать по:</Typography>
           <Box
             sx={{
               display: "grid",
